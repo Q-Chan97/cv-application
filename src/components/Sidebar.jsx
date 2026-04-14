@@ -1,7 +1,13 @@
+import Education from "./Education.jsx";
+import Languages from "./Languages.jsx";
+import Skills from "./Skills.jsx";
+
 function Sidebar() {
     return (
         <section className="sidebar-wrapper">
-            <h3>Sidebar Section</h3>
+            <Education />
+            <Skills />
+            <Languages />
         </section>
     )
 }

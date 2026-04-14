@@ -1,6 +1,6 @@
 import General from "./components/General.jsx";
 import Sidebar from "./components/Sidebar.jsx";
-import Experience from "./components/Experience.jsx";
+import MainContent from "./components/MainContent.jsx";
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
       <main>
         <div className="main-wrapper">
           <Sidebar />
-          <Experience />
+          <MainContent />
         </div>
       </main>
     </div>

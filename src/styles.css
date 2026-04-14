@@ -59,9 +59,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .app-container {
     display: flex;
     flex-direction: column;
-    border: 1px dashed red;
     background-color: white;
-    margin: 2rem 3rem;
+    margin: 3rem 4rem;
     max-width: 960px;
     width: 100%;
     min-height: 100vh;
@@ -76,44 +75,114 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     width: 100%;
     padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: Bitter, 'Times New Roman', serif;
 }
 
 .name-wrapper {
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0rem 2rem;
+}
+
+.contact-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.contact-wrapper {
-    border: 1px solid pink;
-}
-
-/* Main Wrapper */
+/* Main Wrappers */
 
 .main-wrapper {
-    border: 1px solid blue;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    height: 100%;
 }
+
+.heading-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
 
 /* Sidebar */
 
  .sidebar-wrapper {
-    border: 1px solid orange;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary-color);
+ }
+
+ .article-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+ }
+
+ .article-wrapper ul {
+    margin-left: 15px;
  }
 
 /* Main Content */
 
-.experience-wrapper {
-    border: 1px solid magenta;
+.main-content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
+}
+
+.main-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.job-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    gap: 20px;
+}
+
+.job-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.job-wrapper ul {
+    margin-left: 15px;
+}
+
+/* Buttons */
+
+.header-edit-button {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    margin-top: 15px;
+    border: none;
+}
+
+.header-edit-button:hover {
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: transparent;
+    border: none;
+}
+
+.edit-button:hover {
+    cursor: pointer;
 }
