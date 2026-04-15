@@ -13,6 +13,7 @@
 :root {
     --primary-color: #3e3e3f;
     --secondary-color: #c8b7a3;
+    --button-color: #0a6bf2;
 }
 
 *, *::before, *::after {
@@ -92,6 +93,14 @@ p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
+.header-edit-field {
+    border-radius: 5px;
+    border: none;
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 0.8rem;
+    width: 210px;
+}
+
 /* Main Wrappers */
 
 .main-wrapper {
@@ -103,6 +112,16 @@ p, h1, h2, h3, h4, h5, h6 {
 .heading-wrapper {
     display: flex;
     align-items: center;
+    gap: 10px;
+ }
+
+ .editing {
+    gap: 5px;
+ }
+
+ .edit-field-wrapper {
+    display: flex;
+    justify-content: space-between;
     gap: 10px;
  }
 
@@ -185,4 +204,25 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .edit-button:hover {
     cursor: pointer;
+}
+
+.submit-button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 60%;
+    background-color: var(--button-color);
+    color: white;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+
+    transition: background-color 300ms, color 300ms;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid var(--button-color);
+    color: var(--button-color);
 }
