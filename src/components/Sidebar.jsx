@@ -2,10 +2,10 @@ import Education from "./Education.jsx";
 import Languages from "./Languages.jsx";
 import Skills from "./Skills.jsx";
 
-function Sidebar() {
+function Sidebar({userInfo, setUserInfo}) {
     return (
         <section className="sidebar-wrapper">
-            <Education />
+            <Education userInfo={userInfo} setUserInfo={setUserInfo}/>
             <Skills />
             <Languages />
         </section>
