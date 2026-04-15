@@ -9,7 +9,10 @@ export default function App() {
     title: "Occupation Title",
     phoneNumber: "000-000-0000",
     email: "ExampleEmail@domain.com",
-    location: "Chicago, IL"
+    location: "Chicago, IL",
+    degree: "Master's Degree",
+    university: "University of Sheboygan",
+    gradDate: "01/01/1975",
   });
 
   return (
@@ -21,7 +24,7 @@ export default function App() {
       </header>
       <main>
         <div className="main-wrapper">
-          <Sidebar />
+          <Sidebar userInfo={userInfo} setUserInfo={setUserInfo}/>
           <MainContent />
         </div>
       </main>
