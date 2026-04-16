@@ -89,7 +89,7 @@ export default function Education({userInfo, setUserInfo}) {
                             value={userInfo.gradDate}>
                         </input>
                     </div>
-                    <button type="button" className="submit-button" onClick={submitChanges}>
+                    <button type="button" className="submit editing-button" onClick={submitChanges}>
                         Submit
                     </button>
                 </div>

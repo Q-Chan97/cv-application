@@ -85,7 +85,7 @@ export default function General({userInfo, setUserInfo}) {
                   value={userInfo.title}>
                 </input>
               </div>
-              <button type="button" className="submit-button" onClick={submitChanges}>
+              <button type="button" className="submit editing-button" onClick={submitChanges}>
                 Submit
               </button>
             </div>
