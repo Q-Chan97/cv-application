@@ -13,7 +13,9 @@
 :root {
     --primary-color: #3e3e3f;
     --secondary-color: #c8b7a3;
-    --button-color: #0a6bf2;
+    --submit-color: #0a6bf2;
+    --add-color: #02b402;
+    --remove-color: #cc1212;
 }
 
 *, *::before, *::after {
@@ -219,23 +221,44 @@ p, h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.submit-button {
+.editing-button {
     display: flex;
     align-self: center;
     justify-content: center;
     width: 60%;
-    background-color: var(--button-color);
-    color: white;
-    border: 1px solid var(--button-color);
     border-radius: 5px;
+    color: white;
 
     transition: background-color 300ms, color 300ms;
 }
 
-.submit-button:hover,
-.submit-button:focus {
+.editing-button:hover,
+.editing-button:focus {
     cursor: pointer;
     background-color: white;
-    border: 1px solid var(--button-color);
-    color: var(--button-color);
+}
+
+.submit{
+    background-color: var(--submit-color);
+    border: 1px solid var(--submit-color);
+}
+
+.submit:hover,
+.submit:focus {
+    color: var(--submit-color)
+}
+
+.add {
+    background-color: var(--add-color);
+    border: 1px solid var(--add-color);
+}
+
+.add:hover,
+.add:focus {
+    color: var(--add-color);
+}
+
+.remove {
+    background-color: var(--remove-color);
+    border: 1px solid var(--remove-color);
 }
