@@ -13,6 +13,7 @@ export default function App() {
     degree: "Master's Degree",
     university: "University of Sheboygan",
     gradDate: "01/01/1975",
+    skills: ["Javascript", "HTML", "CSS", "React"],
   });
 
   return (
