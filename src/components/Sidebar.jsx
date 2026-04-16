@@ -6,7 +6,7 @@ function Sidebar({userInfo, setUserInfo}) {
     return (
         <section className="sidebar-wrapper">
             <Education userInfo={userInfo} setUserInfo={setUserInfo}/>
-            <Skills />
+            <Skills userInfo={userInfo} setUserInfo={setUserInfo}/>
             <Languages />
         </section>
     )
