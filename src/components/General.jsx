@@ -64,7 +64,7 @@ export default function General({userInfo, setUserInfo}) {
           ) : (
             <div className="name-wrapper editing">
               <div className="edit-field-wrapper">
-                <label for="name-input">Name:</label>
+                <label htmlFor="name-input">Name:</label>
                 <input
                   name="name-input"
                   id="name-input"
@@ -75,7 +75,7 @@ export default function General({userInfo, setUserInfo}) {
                 </input>
               </div>
               <div className="edit-field-wrapper">
-                <label for="title-input">Job Title:</label>
+                <label htmlFor="title-input">Job Title:</label>
                 <input
                   name="title-input"
                   id="title-input"
@@ -102,7 +102,7 @@ export default function General({userInfo, setUserInfo}) {
             <>
               <div className="contact-wrapper editing">
                 <div className="edit-field-wrapper">
-                  <label for="phone-number-input">Phone Number:</label>
+                  <label htmlFor="phone-number-input">Phone Number:</label>
                   <input
                     name="phone-number-input"
                     id="phone-number-input"
@@ -113,7 +113,7 @@ export default function General({userInfo, setUserInfo}) {
                   </input>
                 </div>
                 <div className="edit-field-wrapper">
-                  <label for="email-input">Email:</label>
+                  <label htmlFor="email-input">Email:</label>
                   <input
                     name="email-input"
                     id="email-input"
@@ -124,7 +124,7 @@ export default function General({userInfo, setUserInfo}) {
                   </input>
                 </div>
                 <div className="edit-field-wrapper">
-                  <label for="location-input">Location:</label>
+                  <label htmlFor="location-input">Location:</label>
                   <input
                     name="location-input"
                     id="location-input"

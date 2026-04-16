@@ -57,7 +57,7 @@ export default function Education({userInfo, setUserInfo}) {
                 </div>
                 <div className="editing">
                     <div className="side-edit-field-wrapper">
-                        <label for="degree-input">Degree:</label>
+                        <label htmlFor="degree-input">Degree:</label>
                         <input
                             name="degree-input"
                             id="degree-input"
@@ -68,7 +68,7 @@ export default function Education({userInfo, setUserInfo}) {
                         </input>
                     </div>
                     <div className="side-edit-field-wrapper">
-                        <label for="university-input">University:</label>
+                        <label htmlFor="university-input">University:</label>
                         <input
                             name="university-input"
                             id="university-input"
@@ -79,7 +79,7 @@ export default function Education({userInfo, setUserInfo}) {
                         </input>
                     </div>
                     <div className="side-edit-field-wrapper">
-                        <label for="grad-date-input">Graduation Date:</label>
+                        <label htmlFor="grad-date-input">Graduation Date:</label>
                         <input
                             name="grad-date-input"
                             id="grad-date-input"
