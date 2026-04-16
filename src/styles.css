@@ -14,7 +14,7 @@
     --primary-color: #3e3e3f;
     --secondary-color: #c8b7a3;
     --submit-color: #0a6bf2;
-    --add-color: #02b402;
+    --add-color: #009400;
     --remove-color: #cc1212;
 }
 
@@ -261,4 +261,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .remove {
     background-color: var(--remove-color);
     border: 1px solid var(--remove-color);
+}
+
+.remove:hover,
+.remove:focus {
+    color: var(--remove-color);
 }
