@@ -14,7 +14,8 @@ export default function App() {
     university: "University of Sheboygan",
     gradDate: "01/01/1975",
     skills: ["Javascript", "HTML", "CSS", "React"],
-    languages: ["English", "Japanese"]
+    languages: ["English", "Japanese"],
+    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   });
 
   return (
@@ -27,7 +28,7 @@ export default function App() {
       <main>
         <div className="main-wrapper">
           <Sidebar userInfo={userInfo} setUserInfo={setUserInfo}/>
-          <MainContent />
+          <MainContent userInfo={userInfo} setUserInfo={setUserInfo}/>
         </div>
       </main>
     </div>
