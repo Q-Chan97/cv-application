@@ -66,7 +66,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 3rem 4rem;
     max-width: 960px;
     width: 100%;
-    min-height: 100vh;
 }
 
 /* Header */
@@ -107,7 +106,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .main-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 100%;
+    min-height: 1024px;
 }
 
 .heading-wrapper {
@@ -177,6 +176,13 @@ p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     width: 100%;
     padding: 1rem;
+}
+
+.edit-summary-field {
+    resize: none;
+    width: 576px;
+    height: 300px;
+    padding: 0.5rem;
 }
 
 .job-section-wrapper {
