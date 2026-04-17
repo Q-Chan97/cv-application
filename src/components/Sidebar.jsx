@@ -7,7 +7,7 @@ function Sidebar({userInfo, setUserInfo}) {
         <section className="sidebar-wrapper">
             <Education userInfo={userInfo} setUserInfo={setUserInfo}/>
             <Skills userInfo={userInfo} setUserInfo={setUserInfo}/>
-            <Languages />
+            <Languages userInfo={userInfo} setUserInfo={setUserInfo}/>
         </section>
     )
 }
