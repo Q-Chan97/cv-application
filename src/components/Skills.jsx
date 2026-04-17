@@ -44,7 +44,6 @@ export default function Skills({userInfo, setUserInfo}) {
 
     return (
         <article className="article-wrapper">
-            <>
             <div className="heading-wrapper">
                 <h3>Skills</h3>
                 {!editFlag ? (
@@ -88,7 +87,6 @@ export default function Skills({userInfo, setUserInfo}) {
                     </button>
                 }
             </div>
-            </>
         </article>
     )
 }
