@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react"
+import { useState } from "react"
 
 export default function Skills({userInfo, setUserInfo}) {
     const [editFlag, setEditFlag] = useState(false);
